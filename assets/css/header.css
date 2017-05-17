@@ -1,0 +1,21 @@
+#signatureContainer {
+  float: right;
+}
+
+#signature {
+  width: 440px;
+  height: auto;
+}
+
+header nav {
+  clear: right;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  text-decoration: none;
+  display: inline;
+}
