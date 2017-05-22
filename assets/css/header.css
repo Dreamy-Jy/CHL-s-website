@@ -1,21 +1,32 @@
 #signatureContainer {
-  float: right;
+    float: right;
 }
 
-#signature {
-  width: 440px;
-  height: auto;
+#signatureContainer img {
+    width: 440px;
+    height: auto;
+}
+
+header {
+  border-bottom: 2px solid #DCD0C0;
 }
 
 header nav {
-  clear: right;
+    clear: right;
 }
 
 header nav ul {
-  list-style-type: none;
+    list-style-type: none;
+    padding: 0;
 }
 
 header nav ul li {
-  text-decoration: none;
-  display: inline;
+    padding: 2% 4%;
+    display: inline;
+    font-size: larger;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
 }

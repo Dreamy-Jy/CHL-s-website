@@ -1,118 +1,137 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CHL's Site</title>
-        <link rel="stylesheet" type="text/css" href="assets\css\normalize.css">
-        <link rel="stylesheet" type="text/css" href="assets\css\header.css">
-        <link rel="stylesheet" type="text/css" href="assets\css\main.css">
-        <link rel="stylesheet" type="text/css" href="assets\css\footer.css">
+
+<head>
+    <title>CHL's Site</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\header.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\main.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\footer.css">
 
 
-    </head>
-    <body>
-        <header>
-            <div id="signatureContainer"><img src="assets\images\CHL_Signature.png" alt="" id="signature"></div>
-            <nav>
-                <ul>
-                    <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Home</a></li>
-                    <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Contact</a></li>
-                    <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Blog</a></li>
-                    <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Reading List</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <!-- Bio Section -->
-            <section>
-                <img>
-                <article>
+</head>
+
+<body>
+    <header>
+        <div id="signatureContainer"><img src="assets\images\CHL_Signature.png"></div>
+        <nav>
+            <ul>
+                <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Home</a></li>
+                <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Contact</a></li>
+                <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Blog</a></li>
+                <li class="navBar-Item"><a class="navBar-Item-Text" href="#">Reading List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Bio Section -->
+        <section id="bioSection">
+            <div class="centeredContent" style="width: 1235px;">
+
+                <img src="assets\images\CHL's Bio Pic.jpg">
+
+                <article id="bioText">
                     <h2>Hi I'm Christina</h2>
-                    <p><!-- lerum em sum text here --></p>
+                    <!--Change the font for this text-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod dolor ut leo pellentesque, ornare scelerisque urna bibendum. In dui elit, consectetur a erat sit amet, porta consequat neque. Nulla consectetur volutpat varius. Pellentesque venenatis,
+                        tortor tincidunt viverra gravida, magna ipsum ullamcorper eros, eget porta massa nisl eu urna. Mauris ex sapien, posuere eu hendrerit ac, luctus ut nulla. Proin porttitor ornare nulla id iaculis. Praesent fringilla enim ultrices
+                        orci tincidunt, vel fermentum risus accumsan. Fusce nisl leo, venenatis at semper sed, venenatis eget est. Proin nisl felis, feugiat nec sapien sit amet, aliquet facilisis lacus. Nunc varius venenatis volutpat. Integer pharetra
+                        ac sapien interdum fringilla. Pellentesque non dapibus enim. Pellentesque tempus, dui ut pulvinar elementum, ipsum metus interdum mi, nec sagittis leo urna ac orci. Praesent ut mi mattis, porta nunc id, volutpat lorem. Proin dictum
+                        mi porttitor nunc fringilla, et dapibus nunc ornare. Etiam scelerisque, erat ac ornare condimentum, orci elit pellentesque arcu, non tristique tellus sapien posuere neque. Praesent consequat odio eu odio molestie, ac euismod felis
+                        dapibus.
+                    </p>
                 </article>
-            </section>
+            </div>
+        </section>
 
-            <!-- Section about tech diversification -->
-            <section>
-                <h3>My work diversifying tech</h3>
-                <div>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                </div>
-            </section>
+        <!-- Section about tech diversification -->
+        <section id="techSection">
+            <h2>I'm passionate about diversifying the tech industry</h2>
+            <div class="workContainer">
+                <!--All Star Code -->
+                <article>
+                    <div id="imagesAndButton">
+                        <div id="sideBySide">
+                            <img src="assets\images\All Star Code logo.png">
+                            <img src="assets\images\RL headshot.jpg">
+                        </div>
+                        <div class="centeredContent" style="width:160px;">
+                            <a class="button" target="_blank" href="http://www.allstarcode.org/">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="techText">
+                        <h4>Title that intro's ASC </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac est laoreet, pulvinar elit sit amet, tristique lacus. Curabitur lobortis eget erat eget efficitur. Aenean et turpis nec diam feugiat maximus. Suspendisse et metus vitae tortor cursus tincidunt
+                            eu vitae tortor.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-            <!-- Section on writting (medium, crimison, and book) -->
-            <section>
-                <h3>I'm an writer</h3>
-                <div>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Section on Reading-->
-            <section>
-                <h3>I'm also an avid reader</h3>
-                <div>
-                    <article>
-                        <img>
-                        <p>why do white guys get to have all the fun</p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                    <article>
-                        <img>
-                        <p></p>
-                        <a class="button"></a>
-                    </article>
-                </div>
-            </section>
-
-        </main>
-        <footer>
-            <!-- Suscribe ask -->
+        <!-- Section on writting (medium, crimison, and book) -->
+        <section>
+            <h3>I'm an writer</h3>
             <div>
                 <article>
-                    <h3></h3>
+                    <img>
+                    <p></p>
                     <a class="button"></a>
                 </article>
-
-                <!-- Contact ask -->
                 <article>
-                    <h3></h3>
+                    <img>
+                    <p></p>
+                    <a class="button"></a>
+                </article>
+                <article>
+                    <img>
+                    <p></p>
                     <a class="button"></a>
                 </article>
             </div>
-            <div class="copyRightInfo"></div>
-        </footer>
-    </body>
+        </section>
+
+        <!-- Section on Reading-->
+        <section>
+            <h3>I'm also an avid reader</h3>
+            <div>
+                <article>
+                    <img>
+                    <p>why do white guys get to have all the fun</p>
+                    <a class="button"></a>
+                </article>
+                <article>
+                    <img>
+                    <p></p>
+                    <a class="button"></a>
+                </article>
+                <article>
+                    <img>
+                    <p></p>
+                    <a class="button"></a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!-- Suscribe ask -->
+        <div>
+            <article>
+                <h3></h3>
+                <a class="button"></a>
+            </article>
+
+            <!-- Contact ask -->
+            <article>
+                <h3></h3>
+                <a class="button"></a>
+            </article>
+        </div>
+        <div class="copyRightInfo"></div>
+    </footer>
+</body>
+
 </html>
